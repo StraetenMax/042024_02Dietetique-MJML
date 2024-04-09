@@ -1,0 +1,179 @@
+<mjml>
+    <mj-head>
+        <mj-title>Journées de la Diététique</mj-title>
+        <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" />
+        <mj-attributes>
+            <mj-all font-family="Roboto, Helvetica, Arial, sans-serif"/>
+            <mj-class name="H1" font-size="40px" font-weight="300" line-height="44px" color="#a83163" />
+            <mj-class name="H2" font-size="20px" font-weight="600" line-height="24px" color="#a83163"/>
+            <mj-class name="Text" font-size="16px" font-weight="300" line-height="20px" color="#4A5568"/>
+            <mj-class name="footer" font-size="12px" font-weight="300" line-height="16px" color="#2D3748" />
+            <mj-button background-color="#ec619f" color="#ffffff" font-size="16px" font-weight="500" line-height="20px" border="none"></mj-button>
+        </mj-attributes>
+        <mj-breakpoint width="480px" />
+        <mj-style>
+            .hover:hover td, .hover:hover a{ 
+                background-color:#a83163 !important;
+            }
+           @media (max-width:480px) { 
+                .mpadding td{
+                    padding-left:10px !important;
+                    padding-right:10px !important;
+                }
+                .mesp td{
+                    padding-left:35px !important;
+                    padding-right:35px !important;      
+                }
+                .mspacer div{
+                    height:0px !important;
+                }
+            }
+        </mj-style>
+    </mj-head>
+    <mj-body background-color="#EDF2F7">
+        <!-- Image Hero-->
+        <mj-section background-color="#FFFFFF" padding="0" >
+            <mj-column>
+            <mj-image padding="0" src="src/img/JDiet01-042024.jpg" alt="" /> 
+            </mj-column>
+        </mj-section>
+        <!-- Hero titre et Texte-->
+        <mj-section background-color="#FFFFFF" padding="0" css-class="mpadding">
+            <mj-column width="480px">
+                <mj-text padding="0" align="center" mj-class="H1">
+                     <span style="font-weight:700;">Journées</span> de la <span style="font-weight:700;">Diététique</span>
+                </mj-text>
+                <mj-text padding="0" align="center" mj-class="Text">
+                    Dans le cadre de votre parcours de formation, <span style="font-weight:700;">Ecosup-Diététique</span> vous accompagne en vous proposant de participer aux
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Annonce Date-->
+        <mj-section background-color="#ffffff" css-class="mesp">
+            <mj-column width="235px" background-color="#a83163" border-radius="10px">
+            <mj-text padding="20px 20px 0 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
+               Journées de la Diététique
+            </mj-text>
+            <mj-text padding="0 20px 0 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
+                Vendredi 26 Avril 2024             
+            </mj-text>
+            <mj-text padding="0 20px 20px 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
+                de 9h à 13h
+            </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Article-->
+        <mj-section padding="0 30px" background-color="#ffffff" css-class="mpadding">
+            <mj-column width="50%" padding="0px">
+                <mj-image align="center" padding="0" src="src/img/circleDietetique.jpg" alt="" />   
+            </mj-column>
+            <mj-column width="50%" padding="0px">
+            <mj-spacer height="30px" css-class="mspacer"/>
+                <mj-text padding="0" mj-class="H2" >
+                    Vous y rencontrerez :
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    - des Étudiants de 2e année
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    - des Professionnels
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    - des Professeurs
+                </mj-text>
+                <mj-spacer height="15px" />
+                <mj-text padding="0" mj-class="H2">
+                    Vous participerez à :
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    - des Ateliers diététiques
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    - des Simulations de consultations
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    - une Conférence / Présentation d'une structure de soin
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Phrase-->
+        <mj-section padding="0" background-color="#ffffff" css-class="mpadding"> 
+            <mj-column>
+                <mj-text align="center" padding="0" mj-class="Text">
+                    Alors n'hésitez pas et venez découvrir votre futur métier.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Button-->
+        <mj-section background-color="#ffffff">
+            <mj-column>
+                <mj-button>
+                    inscrivez-vous
+                </mj-button>
+                <mj-text align="center" mj-class="Text">
+                    inscription obligatoire avant le <span style="font-weight:700;">21/04/2024</span>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+        <!--Signature-->
+        <mj-section background-color="#ffffff">
+            <mj-group>
+            <mj-column padding="8px">
+                <mj-image align="right" padding="0" src="src/img/JPoulain.jpg" width="110px" alt="" />
+            </mj-column>
+            <mj-column padding="8px">
+                <mj-text padding="0" mj-class="Text" >
+                    Jérôme <span style="text-transform:uppercase;">Poulain</span>
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    Responsable pédagogique
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    Ecosup Diététique
+                </mj-text>
+                <mj-text padding="0" mj-class="Text">
+                    Tourcoing
+                </mj-text>
+            </mj-column>
+            </mj-group>
+        </mj-section>
+<!--footer-->
+ <mj-section background-color="#EDF2F7">
+        <mj-column width="420px">
+    <!--reseaux sociaux-->
+            <mj-text padding="10px 0 0 0" align="center" mj-class="H2">
+                Suivez-nous sur
+            </mj-text>
+            <mj-social padding="0 0 25px 0" inner-padding="8px 20px 20px 20px" icon-size="25px" mode="horizontal">
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d6047d0d41f3120a8cdec.png" href="https://fr.linkedin.com/company/ecosup-campus" alt="Linkedin"></mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d604fd0d41f3120a8cdf5.png" href="https://www.facebook.com/EcosupCamp" alt="Facebook"></mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d605a373b24d832a3970d.png"  href="https://www.instagram.com/ecosup.campus" alt="Instagram"></mj-social-element>
+                <mj-social-element src="https://img.mailinblue.com/3403292/images/content_library/original/660d60657236a3846ef846ba.png" href="https://www.youtube.com/@EcoSupAssurance" alt="Youtube"></mj-social-element>
+            </mj-social>
+    <!--adresse-->
+            <mj-image padding-bottom="0px" width="120px" src="https://img.mailinblue.com/3403292/images/content_library/original/660d606e373b24d832a39719.png" alt="logo Ecosup Campus" />
+            <mj-text padding="0" align="center" mj-class="footer">
+                17 place Charles et Albert Roussel
+            </mj-text>
+            <mj-text padding="0" align="center" mj-class="footer" text-transform="uppercase">
+                59200 tourcoing
+            </mj-text>
+    <!--reglement-->
+            <mj-text align="center" padding="25px 0 0 0" mj-class="footer">
+               Pour être sûr(e) de recevoir nos communications, ajoutez 
+            </mj-text>
+            <mj-text align="center" padding="0" mj-class="footer">
+               contact@ecosup-campus.fr dans votre carnet d'adresses.  
+            </mj-text>
+            <mj-text align="center" padding="0" mj-class="footer" text-transform="uppercase">
+                <a href="{{ mirror }}">Afficher dans votre navigateur</a>
+            </mj-text>
+            <mj-text align="center" padding="0" mj-class="footer" text-transform="uppercase">
+                <a href="{{ unsubscribe }}">se désinscrire</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    </mj-body>
+</mjml>
+    </mj-body>
+</mjml>
