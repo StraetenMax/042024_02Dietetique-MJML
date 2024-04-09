@@ -84,10 +84,10 @@
         </mj-section>
 <!--Article 2-->
         <mj-section background-color="#ffffff" padding="0 22px" css-class="mpadding"> 
-            <mj-column width="262px" padding="8px">
-                <mj-image fluid-on-mobile="true" align="center" padding="0" src="src/img/poidsBalance042024.jpg" alt="" />   
+            <mj-column padding="8px">
+                <mj-image fluid-on-mobile="true" padding="0" src="src/img/poidsBalance042024.jpg" alt="" />   
             </mj-column>
-            <mj-column width="262px" padding="8px">
+            <mj-column padding="8px">
                 <mj-text padding="0" mj-class="H2">
                     Vous participerez à :
                 </mj-text>
