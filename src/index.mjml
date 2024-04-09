@@ -17,8 +17,8 @@
             }
            @media (max-width:480px) { 
                 .mpadding td{
-                    padding-left:10px !important;
-                    padding-right:10px !important;
+                    padding-left:20px !important;
+                    padding-right:20px !important;
                 }
                 .mesp td{
                     padding-left:35px !important;
@@ -34,7 +34,7 @@
         <!-- Image Hero-->
         <mj-section background-color="#FFFFFF" padding="0" >
             <mj-column>
-            <mj-image padding="0" src="src/img/JDiet01-042024.jpg" alt="" /> 
+            <mj-image padding="0" src="src/img/GrandImag.jpg" alt="" /> 
             </mj-column>
         </mj-section>
         <!-- Hero titre et Texte-->
@@ -49,26 +49,25 @@
             </mj-column>
         </mj-section>
         <!--Annonce Date-->
-        <mj-section background-color="#ffffff" css-class="mesp">
-            <mj-column width="235px" background-color="#a83163" border-radius="10px">
-            <mj-text padding="20px 20px 0 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
+        <mj-section background-color="#ffffff">
+            <mj-column width="235px">
+            <mj-text padding="0" align="center" font-size="16px" font-weight="700" line-height="20px" color="#a83163">
                Journées de la Diététique
             </mj-text>
-            <mj-text padding="0 20px 0 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
+            <mj-text padding="0" align="center" font-size="16px" font-weight="700" line-height="20px" color="#a83163">
                 Vendredi 26 Avril 2024             
             </mj-text>
-            <mj-text padding="0 20px 20px 20px" align="center" font-size="16px" font-weight="700" line-height="20px" color="#ffffff">
+            <mj-text padding="0" align="center" font-size="16px" font-weight="700" line-height="20px" color="#a83163">
                 de 9h à 13h
             </mj-text>
             </mj-column>
         </mj-section>
-        <!--Article-->
-        <mj-section padding="0 30px" background-color="#ffffff" css-class="mpadding">
-            <mj-column width="50%" padding="0px">
-                <mj-image align="center" padding="0" src="src/img/circleDietetique.jpg" alt="" />   
+        <!--Article 1-->
+        <mj-section padding="0 22px" background-color="#ffffff">
+            <mj-column width="262px" padding="8px">
+                <mj-image fluid-on-mobile="true" align="center" padding="0" src="src/img/cuillere042024.jpg" alt="" />   
             </mj-column>
-            <mj-column width="50%" padding="0px">
-            <mj-spacer height="30px" css-class="mspacer"/>
+            <mj-column width="262px" padding="8px">
                 <mj-text padding="0" mj-class="H2" >
                     Vous y rencontrerez :
                 </mj-text>
@@ -81,7 +80,14 @@
                 <mj-text padding="0" mj-class="Text">
                     - des Professeurs
                 </mj-text>
-                <mj-spacer height="15px" />
+            </mj-column>
+        </mj-section>
+<!--Article 2-->
+        <mj-section background-color="#ffffff" padding="0 22px" css-class="mpadding"> 
+            <mj-column width="262px" padding="8px">
+                <mj-image fluid-on-mobile="true" align="center" padding="0" src="src/img/poidsBalance042024.jpg" alt="" />   
+            </mj-column>
+            <mj-column width="262px" padding="8px">
                 <mj-text padding="0" mj-class="H2">
                     Vous participerez à :
                 </mj-text>
